@@ -1,0 +1,150 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "Records",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "ofAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amountStored",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "latestAddAt",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "registeredAt",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getTotalBalanceOfWallet",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addressToRegister",
+						"type": "address"
+					}
+				],
+				"name": "registerInWallet",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_accountAdd",
+						"type": "address"
+					}
+				],
+				"name": "setNewOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_addressOnSend",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "spendSomeMoney",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/smartWalletProject.sol": "smartWalletContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/smartWalletProject.sol": {
+			"keccak256": "0xb8acddebfeec62cae9bdf01681022bf7e31824ec4401b0fec8ac7ddb7335b92c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://14be81f1a9b22022ee14e653a6e37ea83c56c4ea833550082f91f2bbd7ccf1da",
+				"dweb:/ipfs/QmUJRtQPM4cotUXUj71zj93zcLJUjEWHJXuaC62TUMJsCN"
+			]
+		}
+	},
+	"version": 1
+}

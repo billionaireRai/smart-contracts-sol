@@ -1,0 +1,137 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "text",
+						"type": "string"
+					}
+				],
+				"name": "createNewTask",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "taskCreator",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "taskList",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "taskId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "task",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "isCompleted",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalTasks",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_storedBy",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "updateValue",
+						"type": "bool"
+					}
+				],
+				"name": "updateTaskCompletion",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/8_todolists.sol": "onChainToDoList"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/8_todolists.sol": {
+			"keccak256": "0x08ff1d35627a13cc15b57cf6ff7763b63d8bcb5d96d4cccade83ea8b29ccb164",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b3293bfafe36ccfb9b4a5ce6764d367b4ee8a7f30098f844f98ac64d6ea17f32",
+				"dweb:/ipfs/QmSwDFSNn7gAEyHFfn1hYgYT5TBANdMAYPkhW1Aw7xJVv9"
+			]
+		}
+	},
+	"version": 1
+}

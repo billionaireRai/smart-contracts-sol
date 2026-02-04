@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/_piggybank.sol": "my"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/_piggybank.sol": {
+			"keccak256": "0x5145c07dce71fd07f79bf7bbef19d63dd9f240e79959c7ba627e68a18c9d859d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://7d86ee3d3922b440a20807eed6b1b722341cbb689314509fb779e240313d7b71",
+				"dweb:/ipfs/QmckGdTqDm6pnJjbNdq4wgcgyXoQP5HDwYAJEUkbG4Gbnc"
+			]
+		}
+	},
+	"version": 1
+}
