@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/escrowsystem.sol": "Name"
+			"contracts/escrowsystem.sol": "escrow"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/escrowsystem.sol": {
-			"keccak256": "0xca3d9a6f62b2191cf14d644e75a375e821e410eb68a7404588bfd764359daa4e",
+			"keccak256": "0x4c306725b8017bb965a68266c03699965f167ad3e2e74fc7325cd632679b6380",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fb0503306b0104f3abb75353d131c259d96524f9241b4d843e1c899729bbb356",
-				"dweb:/ipfs/QmXgEaf6VGn5Fx9MtmEWrimbbvrvS2dGkd9XdVxLCeyJdv"
+				"bzz-raw://466fdc444e3ca9710995a7b75bddebc6978a6e6770efdf3198c959807ea28fee",
+				"dweb:/ipfs/QmaZeT83mZ7PX3Khkq32C7DmHfJ8UC3YDug128FSHgoCbp"
 			]
 		}
 	},

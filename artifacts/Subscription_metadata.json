@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.30+commit.73712a01"
+		"version": "0.8.15+commit.e14f2714"
 	},
 	"language": "Solidity",
 	"output": {
@@ -18,9 +18,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/escrowsystem.sol": "Name"
+			"contracts/subscriptionsystem.sol": "Subscription"
 		},
-		"evmVersion": "prague",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/escrowsystem.sol": {
-			"keccak256": "0xca3d9a6f62b2191cf14d644e75a375e821e410eb68a7404588bfd764359daa4e",
-			"license": "MIT",
+		"contracts/subscriptionsystem.sol": {
+			"keccak256": "0x291b8dd9bd05982ba61fafd6afe45ae1da5a3f05b116bac8a629d988ba026c0b",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://fb0503306b0104f3abb75353d131c259d96524f9241b4d843e1c899729bbb356",
-				"dweb:/ipfs/QmXgEaf6VGn5Fx9MtmEWrimbbvrvS2dGkd9XdVxLCeyJdv"
+				"bzz-raw://7a9209eebe59ff6ca3483e5dfb52c84814448f010d9c5fb0a078c26186b98f94",
+				"dweb:/ipfs/QmP4GuqrUMx8xr49iHTGQ4quCW9GidCmSyTh3UoWu6ubaX"
 			]
 		}
 	},
