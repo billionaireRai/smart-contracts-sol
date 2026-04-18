@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using Terser v5.39.0.
+ * Original file: /npm/me@0.3.0/index.js
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+var express=require("express"),browserify=require("browserify"),brfs=require("brfs"),fs=require("fs");function me(e){var r=express();return r.use(express.static(__dirname+"/static")),r.use(express.json()),r.get("/bundle.js",(function(e,r){r.status(200).type("js"),browserify(__dirname+"/browser/index.js").transform(brfs).bundle().pipe(r)})),r.get("/content",(function(r,s){s.sendfile(e)})),r.post("/content",(function(r,s){r.body.ts;var n=r.body.content;fs.writeFileSync(e,n),s.end("ok")})),r}module.exports=me;
+//# sourceMappingURL=/sm/8d1c489c856120cf6d7b0ed4ae8126236d2b34e1bef92e58133b3c1e05098ef0.map

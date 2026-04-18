@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/advanceNFT_2.sol": "advanceN"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/advanceNFT_2.sol": {
+			"keccak256": "0xecbc73f6ad776dbc13f3cb3986914396fa0c8f72e812656810c18a5b22af1bbd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bdaa5a234852a0491cee2f32431ef231391b9f050705beff2d1b0bf2d16bb9b3",
+				"dweb:/ipfs/QmfZYLQHyGYQJiLxvvm27Zf1De9vDPeADyTR4jK2MagELP"
+			]
+		}
+	},
+	"version": 1
+}

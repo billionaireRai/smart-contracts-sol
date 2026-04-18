@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using Terser v5.37.0.
+ * Original file: /npm/merk@2.1.4/lib/index.js
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+const{Merk:Merk,verifyProof:verifyProof}=require("../native");module.exports.Merk=function(e){let r=new Merk(e),{proveSync:n}=r;return r.proveSync=function(e){let o=e.slice().sort(((e,r)=>Buffer.compare(e,r)));return n.call(r,o)},process.on("exit",(()=>r.flushSync())),r},module.exports.verifyProof=function(e,r,n){let o=Object.keys(r).map((e=>({originalIndex:e})));o.sort(((e,n)=>Buffer.compare(r[e.originalIndex],r[n.originalIndex]))),o.forEach(((e,r)=>{e.newIndex=r}));let i=o.map((e=>r[e.originalIndex])),t=verifyProof(e,i,n),f=[];for(let e=0;e<t.length;e++)f[o[e].originalIndex]=t[o[e].newIndex];return f};
+//# sourceMappingURL=/sm/f5301894d509c9889e3627a787992144349469ad32058a0f016879ee3851642a.map

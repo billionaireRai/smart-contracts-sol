@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/firstERC721.sol": "firstNFTCon"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/firstERC721.sol": {
+			"keccak256": "0xd8ec1d560d9a7fd0956281bea57210078d00e034de2d1475211d5756e9d44ab1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9a56166b5121c772bf0d3c46dcfaeefcd13ba8b0b1d45f271c768a29b7baca65",
+				"dweb:/ipfs/QmU5L8ZeiUxLrb7XLHiLDuU7ocViY8tbnAYm6FKXFkWkBS"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/firstERC721.sol": "first"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/firstERC721.sol": {
+			"keccak256": "0x357f04432b6686089fab4659bfafbbb89f86d5846ea3e484b0f673e4cc4f7f36",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://949db099af5947e4a060649706d595a0b4c252cc9d5e5de5f5413c105818e8f7",
+				"dweb:/ipfs/QmZXjVqWF7KnVdVotENEWUSx5UUYCFnjSz9phZc7LRegDy"
+			]
+		}
+	},
+	"version": 1
+}
