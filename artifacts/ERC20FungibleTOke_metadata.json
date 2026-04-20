@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/hybridNFT_ERC20.sol": "ERC20FungibleTOke"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/hybridNFT_ERC20.sol": {
+			"keccak256": "0x7d9a718cd2ae8b19eb58d39fa32d0929e181303cc3bbb154037acfb3aea01dd6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://77abc33e015519939903e092cf14bb13729396638653e42c07ca9058eb577391",
+				"dweb:/ipfs/QmU4bP6n1c9oVCz8DT9YeaprLQq7AQJhMTJTxGoCVNu3en"
+			]
+		}
+	},
+	"version": 1
+}

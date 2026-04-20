@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.34+commit.80d5c536"
+		"version": "0.8.25+commit.b61c2a91"
 	},
 	"language": "Solidity",
 	"output": {
@@ -494,7 +494,7 @@
 		"compilationTarget": {
 			"contracts/escrowsystem.sol": "EscrowSmartContract"
 		},
-		"evmVersion": "osaka",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -531,11 +531,11 @@
 			]
 		},
 		"contracts/escrowsystem.sol": {
-			"keccak256": "0xc305cbc3268f76c189fd6e634ae2327be43e0efad89a909bbd9f14697745e65d",
+			"keccak256": "0x430ab8d24db69c4c573476e1a45c23baa43fcc1f5a0c33602280a5a0385e954f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://09ad42728ef06421a18da8b3217dffcdff69fb6940846ba063e7600e63f0d1f0",
-				"dweb:/ipfs/QmQQiEiieYzafx56YJYxFb5WjYevhVC4fsrLSBLfZR6XAu"
+				"bzz-raw://8431d7cc87196ad691d5608d81e0ca503933fc238e197cc7872b7062dea4cfdd",
+				"dweb:/ipfs/QmSvrirsT1wrqHcwNRLiteevGipPaEquxF9MLoDX4eNHQk"
 			]
 		}
 	},
