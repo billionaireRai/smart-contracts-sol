@@ -120,7 +120,7 @@ contract ERC721NFT is ERC721, Pausable, Ownable, ReentrancyGuard {
 
     // function for claiming FTs overtime when modifier condition is reached...
     function overtimeClaimsForFTs() public minFTsForNFTHolder {
-        require((block.timestamp).sub(FTclaims[msg.sender].lastClaimTime) >= 15 days ,"Days gap must be atleast 15 b/w claims , ABORTING !!") ;
+        require(block.timestamp - FTclaims[msg.sender].lastClaimTime >= 15 days ,"Days gap must be atleast 15 b/w claims , ABORTING !!") ;
         bytes memory payload = abi.encodeWithSignature("dispatchFTsWithNFT(address)",msg.sender);
         (bool success, ) = _contractOneAdd.call(payload);
         require(success, "Call to contract one function failed , ABROTING !!");
